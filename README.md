@@ -10,8 +10,18 @@
 1. Moringa TM's ; Mentors
 1. Moringa Students ; Assistant designers
 ## Description
+The week's independent project will be evaluated for the following objectives:
 
-<img src="./img/st.jpg" width="" >
+* Use Angular CLI to create your Project.
+
+* Create a model for your Quote objects.
+
+* Create a custom directive that highlights the quote that has the highest vote.
+
+* Implement a form component that has input sections for the quote.
+
+* Initialize an initial value of 0 for both upvote and downvote for each quote.
+* Add a custom pipe which displays the time passed since the quote was created.
 
 ## Setup/Installation Requirements
 * Fork the repo
@@ -30,27 +40,24 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 | Behaviour      | Input        | Output       |
 | :------------- | :----------: | -----------: |
-|  Enter your name  |   Joesph nganga |     |
-| Enter your Email Address  | scarscoobydoo@gmail.com |   |
-| Enter your message or comment   | what other services    |     |
-| Press Submit|     |Pop up: Joseph nganga , we have received your message. Thank you for reaching out to us.|
+|  Enter your quote  |   Falling makes you get up |     |
+| Enter quote Author | scarscoobydoo |   |
+| Enter your message or comment   | this is inspired me in my darkest hour    |     |
+| Press Submit|     |Directive that highlights the quote that has the highest vote/ delete button added|
 ## output:
-* Create a Hover effect for the **Portfolio ** sections such that on hover a white box appears with then name of the project inside. The project picture should still be visible in the background. This should be achieved using jQuery.
-* The 'What we do'  icons when clicked should toggle between the respective description of each icon. The description should be centered aligned. The header should be in bold and centered also. This should be achieved by using jQuery.
-* Tell the user through a pop up that you have received their message and also thank them for contacting you . For example: ** johndoe we have received your message. Thank you fro reaching out to us. **
-* Use mail chimp API to track all the emails and messages from your users
-* Make the site responsive. 
-
+* Create a new quote.
+* Upvote or downvote a quote.
+* Delete a quote
+* See the number of upvotes and number of downvotes for each quote.
 ## Technologies Used
 <a href="https://www.w3schools.com/">HTML W3schools</a> 
 
-<a href="https://css-tricks.com/">CSS Css trickes</a> 
+<a href="https://css-tricks.com/">CSS trickes</a> 
 
 <a href="https://getbootstrap.com/">Bootstrap</a>
 
-<a href="https://www.w3schools.com/">Javascript</a>
+<a href="https://www.w3schools.com/">Angular</a>
 
-<a href="https://www.w3schools.com/">jQuery</a>
 ## Support and contact details
 call me on
 
