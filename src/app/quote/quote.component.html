@@ -1,0 +1,13 @@
+
+  <h1>My Quotes</h1>
+  <hr>
+  <ul>
+
+       <li *ngFor='let quote of quotes'>
+        <div class="col-sm-11" style="background-color:yellow;">{{quote.name}} </div><br><br>
+      </li>
+
+
+  </ul>
+  <p *ngIf='quotes.length > 10'>Your quotes are too many</p>
+
