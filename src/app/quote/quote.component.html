@@ -7,10 +7,10 @@
       <br>
       <button class="btn btn-primary"(click)='toggleDetails(i)'> See quote</button>
 
-      <app-quote-detail *ngIf='quote.showDescription' [quote]='quote'></app-quote-detail>
+      <app-quote-detail *ngIf='quote.showDescription' [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-detail>
     </div><br><br>
   </li>
 
 
 </ul>
-<p *ngIf='quotes.length > 10'>Your quotes are too many</p>
+<p *ngIf='quotes.length > 5'>Your quotes are too many</p>
