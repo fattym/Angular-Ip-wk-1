@@ -3,3 +3,6 @@ h2{
   text-align: center;
   font-family: 'Berkshire Swash', cursive;
 }
+.form-control.ng-touched.ng-invalid{
+  border: 2px solid red;
+}
