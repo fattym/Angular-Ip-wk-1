@@ -4,7 +4,9 @@
 
   <li *ngFor='let quote of quotes;let i = index'>
     <div class="col-sm-11" style="background-color:black;"><h2 id="wh">{{quote.name}}</h2>
+
       <br>
+      
       <button class="btn btn-primary"(click)='toggleDetails(i)'> See quote</button>
 
       <app-quote-detail *ngIf='quote.showDescription' [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-detail>
