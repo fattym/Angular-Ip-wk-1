@@ -1,4 +1,30 @@
 <p>
   {{quote.description}}
 </p>
-<button (click)= 'quoteDelete(true)' class="btn btn-outline-danger">Delete</button>
+<div class="row">
+  <div class="col-sm-3">
+    <button (click)= 'quoteDelete(true)' class="btn btn-outline-danger">Delete</button>
+  </div>
+  <div class="col-sm-3" >
+
+    <button (click)=likebuttonclick() class="btn btn-block btn-outline-success">
+      like
+    </button>
+    likes:<span class="badge badge-light">{{numberoflikes}}</span>
+    </div>
+    <div class="row">
+ <div class="col-sm-7">
+
+      <button (click)=dislikebuttonclick() class="btn btn-outline-success">
+        dislikes
+      </button>
+      dislikes:<span class="badge badge-light">{{numberofdislikes}}</span>
+    </div>
+
+</div>
+
+
+
+
+
+
