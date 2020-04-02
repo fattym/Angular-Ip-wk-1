@@ -1,6 +1,7 @@
 <p>
   {{quote.description}}
 </p>
+<h1> {{quote.completeDate|dateAgo}}</h1>
 <div class="row">
   <div class="col-sm-3">
     <button (click)= 'quoteDelete(true)' class="btn btn-outline-danger">Delete</button>
@@ -8,6 +9,7 @@
   <div class="col-sm-3" >
 
     <button (click)=likebuttonclick() class="btn btn-block btn-outline-success">
+
       like
     </button>
     likes:<span class="badge badge-light">{{numberoflikes}}</span>
