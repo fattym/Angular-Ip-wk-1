@@ -1,3 +1,4 @@
+
 import { Quote } from './quote';
 
 describe('Quote', () => {
