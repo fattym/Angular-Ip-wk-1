@@ -1,4 +1,5 @@
 import { Quote } from './../quote';
+// tslint:disable-next-line: import-spacing
 import { Component, OnInit, Output, EventEmitter } from'@angular/core';
 
 @Component({
