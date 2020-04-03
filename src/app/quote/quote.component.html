@@ -6,8 +6,8 @@
     <div class="col-sm-9 col-md-6" style="background-color:chocolate;">
       <h1>My Quotes</h1>
       <hr>
-      <ul>
-        <li *ngFor='let quote of quotes;let i = index'>
+      <div>
+        <div *ngFor='let quote of quotes;let i = index'>
           <div class="col-sm-11" style="background-color:black;">
 
             <h2 id="wh">{{quote.name}}</h2>
@@ -17,14 +17,14 @@
               See quote</button>
               <app-quote-detail *ngIf='quote.showDescription' [quote]='quote' (isComplete)='deleteQuote($event,i)'>
 
-              </app-quote-detail>
+              </app-quote-detail><br><br>
 
-          </div>
+          </div><br><br>
 
 
-        </li>
+        </div>
         <p *ngIf='quotes.length > 5'>
           Your quotes are too many</p>
-      </ul>
+      </div>
     </div>
   </div>
