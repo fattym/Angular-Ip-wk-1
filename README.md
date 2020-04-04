@@ -2,7 +2,8 @@
 
 
  
-(<a href="">View project</a>)
+(<a href="https://fattym.github.io/Angular-Ip-wk-1/">View project</a>)
+<img src="./src/assets/pp.png"  >
 
  Date of current version<strong>*: 30/03/2020*</strong>
 #### By:
